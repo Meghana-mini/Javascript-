@@ -1,0 +1,16 @@
+let n=153;
+let count=order(n);
+let c=0;
+temp =n;
+while(temp>0){
+    d=temp%10;
+    p=d**count;
+    c+=p;
+    temp=temp//10;
+}
+if(c==n){
+  console.log("Armstrong number")
+}
+else{
+  console.log("not a Armstrong number")
+}
